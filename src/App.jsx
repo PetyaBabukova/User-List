@@ -3,17 +3,18 @@ import Header from "./components/Header";
 import UserList from "./components/UserList";
 import "./styles.css"
 function App() {
-  
+
 
   return (
-   <div>
-    <Header/>
-    <main className="main">
-    <UserList />
-    </main>
+    <div>
+      <Header />
+      
+      <main className="main">
+        <UserList />
+      </main>
 
-    <Footer/>
-   </div>
+      <Footer />
+    </div>
   )
 }
 
